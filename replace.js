@@ -1,6 +1,6 @@
 fs = require('fs');
 
-fs.readFile('./Sully.c', 'utf8', function (err,data) {
+fs.readFile('./Sully/src/Sully.c', 'utf8', function (err,data) {
   if (err) {
     return console.log(err);
   }
